@@ -1,6 +1,7 @@
-<form action="" method="post" enctype="multipart/form-data">
+<form style="margin-top: 150px;display:flex;justify-content:center; align-content:center ;flex-flow: column wrap;" action="" method="post" enctype="multipart/form-data">
     <label for="questionText">Type your question here:</label>
-    <textarea name="textarea" cols="40" rows="3" required></textarea>
+    <textarea name="textarea" cols="40" rows="5" required></textarea>
+    </br>
     <input type="file" name="fileToUpload">
 
     <select name="student" required>
@@ -21,6 +22,6 @@
         <?php endforeach; ?>
     </select>
 
-
-    <input type="submit" name="submit" value="ADD">
+    <button class="btn-success" type="submit" name="submit">Add</button>
+    <!-- <input type="submit" name="submit" value="ADD"> -->
 </form>

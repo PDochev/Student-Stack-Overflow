@@ -1,4 +1,7 @@
-<p><?php echo $totalStudents ?> students in the Database.</p> <br />
+</br>
+</br>
+</br>
+<h4><?php echo $totalStudents ?> students in the Database.</h4> <br />
 <p><a href="addStudent.php">Add a New Student</a></p>
 <?php foreach ($student as $students) : ?>
     <blockquote>
