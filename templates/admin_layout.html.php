@@ -17,7 +17,7 @@
 
     <nav class="border fixed split-nav">
         <div class="nav-brand">
-            <h3><a href="index.php">StudentStackOverflow</a></h3>
+            <h3><a href="questions.php">StudentStackOverflow</a></h3>
         </div>
         <div class="collapsible">
             <input id="collapsible1" type="checkbox" name="collapsible1">
@@ -39,7 +39,6 @@
     </nav>
 
     <main><?php echo $output ?> </main>
-    <!-- <footer>&copy; SSO 2023</footer> -->
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 </br>
 </br>
 </br>
-<h4><?php echo $totalQuestions ?> questions have been submitted to the StudentStackOverflow.</h4>
+<h4 style=" margin-left:20px;"><?php echo $totalQuestions ?> questions have been submitted to the StudentStackOverflow.</h4>
 
 <?php foreach ($question as $questions) : ?>
     <blockquote>

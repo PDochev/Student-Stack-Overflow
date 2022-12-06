@@ -1,14 +1,14 @@
 </br>
 </br>
 </br>
-<h4><?php echo $totalQuestions ?> questions have been submitted to the StudentStackOverflow.</h4>
+<h4 style="margin-left: 20px;"><?php echo $totalQuestions ?> questions have been submitted to the StudentStackOverflow.</h4>
 
 
 <?php foreach ($question as $questions) : ?>
     <blockquote>
 
 
-        <div class="card" style="width: 30rem; margin:auto">
+        <div class=" card" style="width: 30rem; margin:auto">
             <img src="../uploads/<?php echo htmlspecialchars($questions['image'], ENT_QUOTES, 'UTF-8') ?>" alt="Card example image">
 
             <div class="card-body">
@@ -25,21 +25,6 @@
                     <button type="submit" class="btn-danger">Delete</button>
                 </form>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-            <!-- <form action="deleteQuestion.php" method="post">
-                <input type="hidden" name="id" value="<?php echo $questions['id'] ?>">
-                <input type="submit" value="Delete">
-            </form> -->
 
     </blockquote>
 <?php endforeach; ?>

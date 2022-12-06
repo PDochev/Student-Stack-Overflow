@@ -1,19 +1,20 @@
 </br>
 </br>
 </br>
-<h4><?php echo $totalStudents ?> students in the Database.</h4> <br />
-<p><a href="addStudent.php">Add a New Student</a></p>
+<h4 style="margin-left: 20px;"><?php echo $totalStudents ?> students in the Database.</h4> <br />
+<p style="display:flex;justify-content:center; align-content:center ;flex-flow: column wrap;"><a href="addStudent.php"><button class="btn-success">Add a new Student</button></a></p>
 <?php foreach ($student as $students) : ?>
-    <blockquote>
+    <blockquote style="display:flex;justify-content:center; align-content:center ;flex-flow: column wrap;">
 
-        Student: <?php echo htmlspecialchars($students['name'], ENT_QUOTES, "UTF-8") ?> <br />
-        Email: <?php echo htmlspecialchars($students['email'], ENT_QUOTES, "UTF-8") ?>
+        <h5> Student: <?php echo htmlspecialchars($students['name'], ENT_QUOTES, "UTF-8") ?> </h5>
+        <h5>Email: <?php echo htmlspecialchars($students['email'], ENT_QUOTES, "UTF-8") ?></h5>
 
-        <a href="editStudent.php?id=<?php echo $students['id'] ?>"> Edit</a>
+        <div><a href="editStudent.php?id=<?php echo $students['id'] ?>"> <button class="btn-secondary">Edit</button></a></div>
 
         <form action="deleteStudent.php" method="post">
             <input type="hidden" name="id" value="<?php echo $students['id'] ?>">
-            <input type="submit" value="Delete">
+
+            <button type="submit" class="btn-danger">Delete</button>
         </form>
 
     </blockquote>
