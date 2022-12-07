@@ -5,7 +5,7 @@
 <h4 style="margin-left: 20px;"><?php echo $totalModules ?> modules in the Database.</h4> <br />
 
 
-<p style="display:flex;justify-content:center; align-content:center ;flex-flow: column wrap;"><a href="addModule.php"><button class="btn-success">Add Module</button></a></p>
+<p style="display:flex;justify-content:center; align-content:center ;flex-flow: column wrap;"><a href="addModule.php"><button class="btn-success">Add a new Module</button></a></p>
 <?php foreach ($module as $modules) : ?>
     <blockquote style="display:flex;justify-content:center; align-content:center ;flex-flow: column wrap;">
 

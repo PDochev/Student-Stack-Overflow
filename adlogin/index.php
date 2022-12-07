@@ -7,7 +7,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="https://unpkg.com/papercss@1.9.0/dist/paper.min.css" />
+	<!-- <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.0/dist/paper.min.css" /> -->
 
 
 </head>
@@ -22,7 +22,7 @@
 	<div class="col-md-3"></div>
 	<div class="col-md-6 well">
 		<h2>Admin Login</h2> <br />
-		<h3>Username: admin Password: admin</h3>
+		<h4>Username: admin Password: admin</h4>
 
 		<div class="col-md-2"></div>
 		<div class="col-md-8">

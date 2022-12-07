@@ -14,7 +14,7 @@
 <body>
 
 
-    <nav class="border fixed split-nav">
+    <nav style="background-color: #a2e0e0;" class="border fixed split-nav">
         <div class="nav-brand">
             <h3><a href="index.php">StudentStackOverflow</a></h3>
         </div>
