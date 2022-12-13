@@ -1,5 +1,5 @@
 <?php
-require '../adlogin/check.php';
+
 if (isset($_POST['message'])) {
     $title = 'Contact Us';
     $message = $_POST['message'];

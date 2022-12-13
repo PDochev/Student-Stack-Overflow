@@ -27,7 +27,7 @@ function totalQuestions($pdo)
 
 function allQuestions($pdo)
 {
-    $question = query($pdo, 'SELECT questions.id, questionText, questionDate,`image`,`name`, email, moduleName FROM questions
+    $question = query($pdo, 'SELECT questions.id, questionText, questionDate,`image`,alt_text,`name`, email, moduleName FROM questions
 	INNER JOIN students ON studentId  = students.id
 	INNER JOIN modules ON moduleId = modules.id');
     return $question->fetchAll();
