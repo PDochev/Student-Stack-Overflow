@@ -48,13 +48,13 @@
 					<label for="paperInputs1">
 						<h5>Username</h5>
 					</label>
-					<input type="text" placeholder="Enter username" id="paperInputs1" name="username" />
+					<input type="text" placeholder="Enter username" id="paperInputs1" name="username" required />
 				</div>
 				<div class="form-group">
 					<label for="paperInputs2">
 						<h5>Password</h5>
 					</label>
-					<input type="password" placeholder="Enter password" id="paperInputs2" name="password" />
+					<input type="password" placeholder="Enter password" id="paperInputs2" name="password" required />
 				</div>
 				<br />
 				<div class="form-group">

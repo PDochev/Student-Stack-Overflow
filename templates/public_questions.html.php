@@ -7,7 +7,7 @@
     <blockquote>
 
         <div class="card" style="width: 30rem; margin:auto">
-            <img src="uploads/<?php echo htmlspecialchars($questions['image'], ENT_QUOTES, 'UTF-8') ?>" alt="Card image">
+            <img src="uploads/<?php echo htmlspecialchars($questions['image'], ENT_QUOTES, 'UTF-8') ?>" alt="<?php echo htmlspecialchars($questions['alt_text'], ENT_QUOTES, 'UTF-8'); ?>" title="<?php echo htmlspecialchars($questions['alt_text'], ENT_QUOTES, 'UTF-8'); ?>">
 
             <div class="card-body">
                 <h4 class="card-title">Question:</h4>
